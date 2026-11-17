@@ -1,0 +1,74 @@
+KAWAN ENGLISH — CARA PASANG DI ANDROID (GRATIS)
+==============================================
+
+Isi folder:
+  index.html, app.js, data.js, courses.js, courses2.js, tutors.js, scenarios.js, sw.js,
+  manifest.webmanifest, folder icons/
+  (data.js = bank latihan per level A1–C1, juga dipakai untuk Jalur Level;
+   courses.js + courses2.js = katalog kursus topik, modul, pelajaran, kuis;
+   tutors.js = daftar tutor, harga, dan jadwal. Saat ini berisi profil CONTOH;
+   scenarios.js = skenario roleplay dan topik ngobrol bebas untuk Teman Bicara.)
+
+ISI APLIKASI (versi 3)
+  - Bicara (Teman Bicara): 11 skenario roleplay suara (restoran, hotel, bandara,
+    dokter, wawancara kerja, konferensi, rapat, dll.), 12 topik ngobrol bebas,
+    mini-kelas frasa kunci, mode pemula, skor & koreksi tiap jawaban.
+  - Tanya Kawan (tombol ✨): cari penjelasan di semua materi aplikasi.
+  - Tampilan baru: terang dengan aksen ungu, sidebar di laptop/PC.
+  - Beranda: target mingguan, lanjutkan belajar, les berikutnya, latihan harian.
+  - Kursus: 5 kursus topik (Grammar, Akademik, Bisnis, Pelafalan, IELTS)
+    + Jalur Level A1–C1. Semua punya ujian akhir dan sertifikat PNG.
+  - Tutor: cari & saring tutor, profil, ulasan, pilih jadwal, pesan les,
+    batalkan, beri ulasan. Pemesanan masih tersimpan di HP saja; belum ada
+    pembayaran, akun tutor, atau kelas video (butuh server/backend).
+  - Latihan: Reading, Listening, Speaking, Writing, Kosakata, Tes Penempatan.
+  - Profil: nama sertifikat, target mingguan, sertifikat, lencana, jadwal les.
+
+SUDAH PASANG VERSI LAMA?
+  Cukup unggah ulang semua file ke alamat yang sama. Buka aplikasinya dua kali
+  (tutup lalu buka lagi) agar versi baru termuat. Progres lama tetap tersimpan.
+
+LANGKAH 1 — Online-kan aplikasinya (pilih salah satu, semuanya gratis)
+
+  A. Netlify Drop (paling cepat, perlu laptop/PC)
+     1. Ekstrak zip ini.
+     2. Buka https://app.netlify.com/drop lalu daftar/masuk (gratis).
+     3. Seret folder "kawan-english" ke halaman tersebut.
+     4. Anda mendapat alamat seperti https://nama-acak.netlify.app
+
+  B. GitHub Pages (bisa dari laptop, atau HP dengan mode desktop di Chrome)
+     1. Buat repository baru di github.com, misalnya "kawan-english" (Public).
+     2. Add file > Upload files > unggah SEMUA isi folder (termasuk folder icons).
+     3. Settings > Pages > Source: "Deploy from a branch", Branch: main / root > Save.
+     4. Tunggu 1–2 menit. Alamatnya: https://USERNAME.github.io/kawan-english/
+
+LANGKAH 2 — Pasang di HP Android
+  1. Buka alamat tadi di Google Chrome di HP.
+  2. Ketuk menu ⋮ > "Instal aplikasi" (atau "Tambahkan ke layar utama").
+  3. Ikon Kawan English muncul di layar utama dan bisa dibuka offline.
+
+OPSIONAL — Membuat file APK sungguhan (gratis)
+  1. Buka https://www.pwabuilder.com dan masukkan alamat aplikasi dari Langkah 1.
+  2. Pilih "Package for stores" > Android > Generate.
+  3. Unduh paket .zip, kirim ke HP, lalu pasang file .apk di dalamnya
+     (izinkan "Instal aplikasi dari sumber tidak dikenal" bila diminta).
+
+CATATAN
+  - Progres (XP, streak, kosakata) tersimpan di HP itu sendiri.
+  - Speaking memakai pengenalan suara Google Chrome, butuh internet.
+  - Bila suara bahasa Inggris tidak keluar: Setelan > Bahasa & input >
+    Output text-to-speech > pilih "Speech Services by Google", bahasa English (US).
+
+
+BARU DI VERSI 4
+  - Tab Video: 104 video dari folder Drive "BAHASA INGGRIS" (Conversation, Vocabulary,
+    Grammar & Pronouns, Story Simple Speaking, English Story) + 5 folder Bedtime Stories.
+    Video diputar dari Google Drive, jadi butuh internet. Folder sudah berstatus
+    "siapa saja yang memiliki link"; jangan ubah ke "Dibatasi" agar video tetap tampil.
+  - Kursus jalur sekolah: SD Kelas 1-4, SD Kelas 5-6, SMP Kelas 7-9, SMA Kelas X-XII
+    (filter jenjang di tab Kursus). Materi ditulis ulang, topik mengikuti buku & ATP di Drive.
+  - Pustaka: tautan buku siswa/guru dan perangkat ajar (CP, TP, ATP, modul) di Drive.
+  - Tutor AI (opsional): Profil > Tutor AI. Tempel kunci API Gemini gratis dari
+    https://aistudio.google.com/apikey untuk ngobrol bebas dengan koreksi otomatis.
+  - 5 skenario roleplay baru: Berkenalan di Sekolah, Undangan Ulang Tahun, Meminta Izin,
+    Kehilangan Barang, Memberi Saran ke Teman.
